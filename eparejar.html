@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emparejar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d0446fb098.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <style>
+        main {
+            height: 90vh;
+            /* background: tomato; */
+        }
+
+        .titulo {
+            height: 10%;
+            /* background-color: teal; */
+        }
+
+        .img-perfil-emparejar {
+            height: 30%;
+            /* background-color:yellowgreen; */
+        }
+
+        .img-perfil-emparejar .fa-surprise {
+            margin-top: 5px;
+            font-size: 90px;
+        }
+
+        .logo-scan {
+            height: 35%;
+            /* background-color:cornflowerblue; */
+        }
+
+        .div-logo-scan {
+            margin-top: 20px;
+        }
+
+        .info-emparejar {
+            height: 25%;
+            /* background-color:deeppink; */
+        }
+
+        .info-emparejar .qr-emparejar {
+            margin-top: 30px;
+            width: 60px;
+        }
+
+        .btn {
+            border-radius: 50px;
+            width: 100px;
+        }
+        .navbar-brand {
+            width: 19%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <div class="container-fluid titulo">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-center">Emparejar</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container img-perfil-emparejar">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1><i class="far fa-surprise "></i></h1>
+                    <p>Desconocido</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container logo-scan">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="div-logo-scan">
+                        <svg viewBox="0 0 100 100" width="160px">
+                            <path d="M25,2 L2,2 L2,25" fill="none" stroke="black" stroke-width="2" />
+                            <path d="M2,75 L2,98 L25,98" fill="none" stroke="black" stroke-width="2" />
+                            <path d="M75,98 L98,98 L98,75" fill="none" stroke="black" stroke-width="2" />
+                            <path d="M98,25 L98,2 L75,2" fill="none" stroke="black" stroke-width="2" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container info-emparejar">
+            <div class="row">
+                <div class="col-4">
+                    <img class="img-fluid qr-emparejar" src="img/qr-exampe.png" alt="">
+                </div>
+                <div class="col-8">
+                    <p>Monto máximo de trans</p>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                        </div>
+                        <button type="button" class="btn btn-primary">Agregar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
